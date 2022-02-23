@@ -12,6 +12,14 @@ const images = [
   "pic6.jpg",
   "pic7.jpg",
   "pic8.jpg",
+  "pic9.jpg",
+  "pic10.jpg",
+  "pic11.jpg",
+  "pic12.jpg",
+  "pic13.jpg",
+  "pic14.jpg",
+  "pic15.jpg",
+  "pic16.jpg",
 ];
 
 const ProjectPage = () => {

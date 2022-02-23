@@ -7,7 +7,7 @@ const Main = () => {
       <div className={classes.mainText}>
         <h1>
           Hand made <br />
-          High Quality Furniture.
+          High Quality Furniture
           <br /> Bringing interiors to life
         </h1>
         <h4>
