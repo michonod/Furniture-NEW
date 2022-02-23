@@ -1,0 +1,30 @@
+.contactContainer {
+  width: 100vw;
+  min-width: 600px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: rgba(212, 226, 148, 0.171);
+}
+
+.contactContainer h2 {
+  font-weight: 300;
+}
+
+.contactContainer div {
+  padding: 20px;
+  transition: transform 0.2s ease-in;
+}
+
+.contactContainer div:hover {
+  transform: scale(1.2);
+}
+
+@media only screen and (max-width: 789px) {
+  .contactContainer {
+    min-height: 1000px;
+  }
+}

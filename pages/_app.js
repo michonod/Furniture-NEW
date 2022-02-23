@@ -1,7 +1,21 @@
-import '../styles/globals.css'
+import "../styles/globals.css";
+import Head from "next/head";
+import { Fragment } from "react";
+import Header from "../components/Header";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <Fragment>
+      <Head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+          rel="stylesheet"
+        />
+      </Head>
+      <Header></Header>
+      <Component {...pageProps} />
+    </Fragment>
+  );
 }
 
-export default MyApp
+export default MyApp;
