@@ -8,14 +8,12 @@ const Header = () => {
   return (
     <div className={classes.headerContainer}>
       <div className={classes.navbar}>
-        <div className={classes.navbarLeft}>
-          <Link href="/">
+        <Link href="/">
+          <div className={classes.navbarLeft}>
             <Image src="/logo.png" width={60} height={40}></Image>
-          </Link>
-          <Link href="/">
             <h1>Furniture Creations</h1>
-          </Link>
-        </div>
+          </div>
+        </Link>
         <div className={classes.navbarRight}>
           <ul>
             <Link href="/about">

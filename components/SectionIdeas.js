@@ -34,7 +34,7 @@ const SectionIdeas = () => {
     <div className={classes.sectionContainer}>
       {data.map((item) => {
         return (
-          <div className={classes.sectionContainerDiv}>
+          <div className={classes.sectionContainerDiv} key={item.title}>
             <h5>{item.logo}</h5>
             <h4>{item.title.toUpperCase()}</h4>
             <p>{item.text}</p>

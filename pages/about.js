@@ -12,7 +12,7 @@ const AboutUsPage = () => {
           giving you the best service and products possible each and every time.
           Your satisfaction is always our goal.
         </p>
-        <h2>Quality, Selection &apos; Value</h2>
+        <h2>Quality, Selection Value</h2>
         <p>
           We offer the very best in home and office furniture. We have access to
           any style of furniture you may be looking for from contemporary,
