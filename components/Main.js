@@ -6,9 +6,9 @@ const Main = () => {
     <div className={classes.mainContainer}>
       <div className={classes.mainText}>
         <h1>
-          Hand made <br />
+          Hand Made <br />
           High Quality Furniture
-          <br /> Bringing interiors to life
+          <br /> Designed For You
         </h1>
         <h4>
           Understand the person or people living in a home is a far greater need
